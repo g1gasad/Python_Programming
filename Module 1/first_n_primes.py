@@ -1,7 +1,6 @@
 def prime_list(n):
-    
+    # List all primes below a given number
     plist = []
-    
 
     for i in range(2, n):
         for j in range(2, i):
@@ -15,5 +14,5 @@ def prime_list(n):
     return plist
 
 if __name__=="__main__":
-    n = 100
+    n = 40
     print(prime_list(n))
