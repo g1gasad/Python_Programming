@@ -13,3 +13,8 @@ for i in range(rows):
         matrix[i].append(value)
 arr1 = np.array(matrix)    
 print(arr1)
+
+for r in range(len(arr1)):
+    for c in range(len(arr1[0])):
+        print(arr1[r][c], end=" ")
+    print()
